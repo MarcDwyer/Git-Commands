@@ -2,3 +2,6 @@ git merge --abort
 git push -f
 git stash drop
 git merge -X theirs <branch>
+git fetch -all, git reset --hard origin/master, git reset --hard origin/<branch_name>
+
+
