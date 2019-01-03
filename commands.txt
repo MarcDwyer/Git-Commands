@@ -1,0 +1,4 @@
+git merge --abort
+git push -f
+git stash drop
+git merge -X theirs <branch>
